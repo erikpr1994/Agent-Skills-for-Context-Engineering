@@ -66,6 +66,19 @@ Copy skill content into `.cursorrules` or create project-specific rules files. T
 
 Extract the principles and patterns from any skill and implement them in your agent framework. The skills are deliberately platform-agnostic.
 
+## Examples
+
+The [examples](examples/) folder contains complete system designs that demonstrate how multiple skills work together in practice.
+
+| Example | Description | Skills Applied |
+|---------|-------------|----------------|
+| [x-to-book-system](examples/x-to-book-system/) | Multi-agent system that monitors X accounts and generates daily synthesized books | multi-agent-patterns, memory-systems, context-optimization, tool-design, evaluation |
+
+Each example includes:
+- Complete PRD with architecture decisions
+- Skills mapping showing which concepts informed each decision
+- Implementation guidance
+
 ## Structure
 
 Each skill follows the Agent Skills specification:
